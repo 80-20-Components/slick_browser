@@ -91,6 +91,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/core": {
+                "Password reset link should immediately detect if the link is expired": "https://www.drupal.org/files/issues/2020-05-21/3059158-42.patch"
+            }
         }
     },
     "scripts": {
